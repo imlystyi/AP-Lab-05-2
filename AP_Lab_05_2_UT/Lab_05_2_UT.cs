@@ -17,7 +17,7 @@ namespace AP_Lab_05_2_UT
 
             double k = Lab_05_2.Summarize(0.5, 0.001, ref n);
 
-            Assert.AreEqual(k, Math.Log(1.5), 0.001);
+            Assert.AreEqual(Math.Log(1.5), k, 0.001);
         }
     }
 }
